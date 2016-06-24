@@ -5,3 +5,23 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Bench.delete_all
+
+Bench.create!(
+  description: "No shade.",
+  lat: 37.769441,
+  lng: -122.432945
+)
+
+Bench.create!(
+  description: "Crowded but nice view.",
+  lat: 37.794752,
+  lng: -122.392429
+)
+
+Bench.create!(
+  description: "In the middle of the park.",
+  lat: 37.792173,
+  lng: -122.412169
+)

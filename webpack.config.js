@@ -1,6 +1,6 @@
 module.exports = {
   context: __dirname,
-  entry: "./frontend/entry.jsx",
+  entry: "./frontend/bench_bnb.jsx",
   output: {
     path: "./app/assets/javascripts",
     filename: "bundle.js"
@@ -20,5 +20,5 @@ module.exports = {
   resolve: {
     extensions: ["", ".js", ".jsx"]
   },
-  devtools: 'source-maps'
+  devtool: 'source-maps'
 };
